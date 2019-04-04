@@ -1,6 +1,7 @@
-# Prototype
+#Prototype
 
-This is a PoC test sandbox for prototyping and testing device communication.
+This is a PoC test sandbox for prototyping and testing device communication with the T470 lenovo thinkpad laptop fingerprint reader for ubuntu linux.
+
 
 ## Prepare build environment
 

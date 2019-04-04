@@ -2,6 +2,15 @@
 
 This project aims on reverse engineering protocol of Validity 138a:0090, 138a:0094, 138a:0097, 06cb:0081, 06cb:009a fingerprint readers, creating specification and FLOSS libfprint driver.
 
+# To configure the reader to work while linux is up we first need to start a windows instance
+
+run a windows virtual machine to in vagrant with usb drivers since the driver is still in development and still cannot turn on the reader sensor from linux
+
+```
+make
+vagrant rdp
+
+``` 
 ## Discussions
 
 Main chat of this project: [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/Validity90/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
